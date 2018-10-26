@@ -1,0 +1,3 @@
+aiohttp==3.4.4
+docker==3.5.1
+PyYAML==3.13

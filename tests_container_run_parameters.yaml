@@ -1,0 +1,7 @@
+apache:
+    type: docker_container
+    properties: 
+      image: httpd
+      command: httpd-foreground
+      port_bindings:
+        - 8080: 80
